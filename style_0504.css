@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+:root {
+    --cor-de-fundo:#000000;
+    --verde:#38fb15;
+    --branco:#0bf80b;
+    --botao-ativo:#3A375E;
+    --botao-inativo: rgba(38, 255, 0, 0.991);
+    --texto-fundo: rgba(0, 255, 8, 0.999);
+}
+body{
+background-color:  rgb(1, 81, 239);
+font-family: 'lobster', sans-serif;
+}
+h2{
+color: rgb(212, 27, 175);
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+.titulo-principal span{
+    color: var(--verde);
+}
+.botao{
+    font-family: 'lobster', sans-serif;
+    background-color: var(--botao-inativo);
+    color:var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+}  
